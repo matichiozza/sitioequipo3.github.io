@@ -47,12 +47,13 @@ body{
 }
 
 .navdiv ul li a:hover{
-    background-color: #F3F3F3;
+    background-color: #f7f7f7;
     border-radius: 20px;
+    transition: 150ms;
 }
 
-.navdiv ul li a:active{
-    background-color: #dadada;
+.navdiv ul li a:active, .activo{
+    background-color: #ebebeb;
     border-radius: 20px;
 }
 
@@ -113,6 +114,8 @@ body{
 .seccion-propuesta h1 {
     text-align: center;
     color: #2272ED;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .seccion-propuesta p {
@@ -135,6 +138,7 @@ footer{
     font-weight: 200;
     display: flex;
     align-items: center;
+    font-size: 15px;
 }
 
 footer div{

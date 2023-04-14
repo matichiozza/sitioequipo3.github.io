@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.col-12{
+    margin: 0px 200px;
+}
+
+.nav-inicio{
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 1;
+}
+
+.navdiv{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navdiv ul{
+    list-style: none;
+    display: flex;
+}
+
+.navdiv ul li{
+    list-style: none;
+}
+
+.navdiv ul li a{
+    text-decoration: none;
+    color: #2272ED;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 12px 20px;
+}
+
+.navdiv ul li a:hover{
+    background-color: #F3F3F3;
+    border-radius: 20px;
+}
+
+.navdiv ul li a:active{
+    background-color: #dadada;
+    border-radius: 20px;
+}
+
+.seccion-inicio{
+    background-color: #dadada;
+    height: 500px;
+}

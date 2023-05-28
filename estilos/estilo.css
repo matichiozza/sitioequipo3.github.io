@@ -267,6 +267,20 @@ label {
     .clase-imagen-avances{
         min-height: 200px !important;
     }
+
+    .caja-colores{
+        width: 400px !important;
+    }
+
+    .clase-colores{
+        height: 100px !important;
+        width: 100px !important;
+        font-size: 20px !important;
+    }
+
+    .arbol img{
+        width: 370px;
+    }
 }
 
 

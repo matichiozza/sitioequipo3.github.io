@@ -246,7 +246,7 @@ label {
 
     .seccion-avances2 {
         width: 270px !important;
-        height: 2825px !important;
+        height: 6000px !important;
     }
 
     .seccion-2 p {
@@ -339,11 +339,12 @@ label {
 
 .seccion-avances2 {
     background-color: #F3F3F3;
-    height: 2570px;
+    height: 4000px;
     width: 800px;
     margin: 35px 0px;
     border-radius: 20px;
     padding: 40px 80px;
+    position: relative;
 }
 
 .seccion-avances2 h1 {

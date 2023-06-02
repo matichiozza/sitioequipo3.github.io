@@ -199,8 +199,8 @@ label {
         justify-content: center;
     }
 
-    footer div {
-        font-size: 11px;
+    footer div p{
+        font-size: 11px !important;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -246,7 +246,7 @@ label {
 
     .seccion-avances2 {
         width: 270px !important;
-        height: 6000px !important;
+        height: 4300px !important;
     }
 
     .seccion-2 p {
@@ -339,7 +339,7 @@ label {
 
 .seccion-avances2 {
     background-color: #F3F3F3;
-    height: 4000px;
+    height: 3150px;
     width: 800px;
     margin: 35px 0px;
     border-radius: 20px;
